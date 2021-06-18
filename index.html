@@ -18,7 +18,7 @@
     <div class="logo-container">
       <h1 id="text-logo">
         <a href="#">
-          Search GIF's
+          Search GIF
         </a>
       </h1>
     </div>
@@ -29,14 +29,17 @@
       <form>
         <div class="insert-gif">
           <div class="center">
-            <input type="text" placeholder="buscar gif's">
-            <button><img src="./src/search.svg" alt=""></button>
+            <input type="text" name="search" placeholder="search gif..." autofocus>
+            <button>
+              <img src="./src/search.svg" alt="">
+            </button>
           </div>      
         </div>     
       </form>
 
       <div class="container-img">
-        <img src="https://via.placeholder.com/500x400" alt="">
+        <p></p>
+        <img class="gif" src="https://via.placeholder.com/500x400" alt="">
       </div>
 
     </div>
@@ -45,6 +48,8 @@
   <footer>
     <h3>Search GIF's</h3>
   </footer>
+
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
